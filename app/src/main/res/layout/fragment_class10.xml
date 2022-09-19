@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Class10Fragment">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="322dp"
+        android:layout_height="228dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        app:cardElevation="20dp">
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="305dp"
+            android:layout_height="212dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/school" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="322dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="300dp"
+        app:cardElevation="10dp">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:elevation="20dp"
+            android:shadowColor="@color/black"
+            android:text="C R Inter College Panti Manshapur, Ambedkar Nagar, UP-224232 "
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textIsSelectable="true"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="305dp"
+            android:layout_height="78dp"
+            android:layout_marginStart="9dp"
+            android:layout_marginTop="8dp"
+            app:cardElevation="10dp" >
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="85dp"
+                android:layout_marginTop="52dp"
+                android:text="Percentage- 89.16%"
+                android:textIsSelectable="true"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+        </androidx.cardview.widget.CardView>
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/home"/>
+    <item
+        android:id="@+id/contact"
+        android:title="Contact"
+        android:icon="@drawable/contactus">
+    </item>
+    <item
+        android:id="@+id/education"
+        android:title="Education"
+        android:icon="@drawable/education"/>
+    <item
+        android:id="@+id/know"
+        android:title="Knowledge">
+        <menu >
+            <item
+                android:id="@+id/pl"
+                android:title="Programming Language"
+                android:icon="@drawable/programming_language"/>
+            <item
+                android:id="@+id/db"
+                android:title="Database"
+                android:icon="@drawable/database_icon"/>
+            <item
+                android:id="@+id/skills"
+                android:title="Skills"
+                android:icon="@drawable/skills"/>
+
+        </menu>
+    </item>
+    <item
+        android:id="@+id/achievement"
+        android:title="Achievement" >
+        <menu >
+            <item
+                android:id="@+id/certificate"
+                android:title="Certificate"
+                android:icon="@drawable/certificate"/>
+            <item
+                android:id="@+id/experience"
+                android:title="Experience"
+                android:icon="@drawable/experience"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/sharing"
+        android:title="Sharing" >
+        <menu >
+            <item
+                android:id="@+id/share"
+                android:title="Share"
+                android:icon="@drawable/share"
+                />
+        </menu>
+    </item>
+</menu>
